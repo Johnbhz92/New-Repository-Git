@@ -1,2 +1,2 @@
 # New-Repository-Git
-Tripleten
+Dashboard do PRojeto da Sprint 5 da Tripleten
