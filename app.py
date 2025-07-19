@@ -4,8 +4,9 @@ import plotly.express as px
 import streamlit as st
         
 car_data = pd.read_csv('vehicles.csv') # lendo os dados
+st.header('Análise de Anúncios de Vendas de Carros')  # Cabeçalho adicionado
 hist_button = st.button('Criar histograma') # criar um botão
-        
+
 if hist_button: # se o botão for clicado
     # escrever uma mensagem
     st.write('Criando um histograma para o conjunto de dados de anúncios de vendas de carros')
